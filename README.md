@@ -23,4 +23,4 @@ TO DO:
 * Need to publish the distance. Currently it only prints the distance in the Terminal
   make the node to send distance AND bearing via both a service and a publisher. 
   --> will have to write a custom message (with a header, i.e. stamped) , unless there is a suitable existing message (need to check).
-* 
+
