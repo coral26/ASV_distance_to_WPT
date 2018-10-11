@@ -5,7 +5,7 @@ Created on Fri May 18 11:59:14 2018
 
 @author: Coral Moreno
 
-Reference Frames in this code:
+Steps in this code:
 1. A waypoint is given in (LAT,LONG)
 2. Assigning the given waypoint (LAT,LONG) to a GeoPointStamped variable
 3. Transforming given WPT from (LAT,LONG) to ECEF reference frame (RF), a.k.a 'earth' RF.
