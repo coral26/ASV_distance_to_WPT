@@ -13,17 +13,18 @@ Steps in this code:
 
 TO DO:
 * Make this node to calculate distance AND bearing to a given waypoint.
-* currently the waypoint is hardcoded in the code.
+* currently the waypoint is hard-coded in the code.
 
   --> Fix it to read either from command line, or via UDP server.
-      Implement 3 different ways to read a given waypoint:
-      1. Service that gets the wypoint and set it in the code.
-      2. via the Parameter Server
-      3. via a rostopic.
+      Implement 3 different ways to read a given waypoint: 
+  1. Service that gets the wypoint and set it in the code.
+  2. via the Parameter Server
+  3. via a rostopic.
       
-      --> For this need to write something that publish the waypointor a list of waypoints; or try via commandline.
-* Need to publish the distance. Currently it only prints the distance in the Terminal
-  make the node to send distance AND bearing via both a service and a publisher. 
+  --> For this need to write something that publish the waypointor a list of waypoints; or try via command-line.
+      
+* Need to publish the distance. Currently it only prints the distance in the Terminal.
+  Make the node to send distance AND bearing via both a service and a publisher. 
   
   --> will have to write a custom message (with a header, i.e. stamped) , unless there is a suitable existing message (need to check).
 
